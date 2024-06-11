@@ -17,6 +17,7 @@ gem install rspec-httpbin
 
 ```rb
 require 'capybara'
+require 'rspec/httpbin'
 
 let!(:server) do
   server = Capybara::Server.new(RSpec::HTTPBin)
